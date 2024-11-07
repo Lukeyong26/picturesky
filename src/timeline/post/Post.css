@@ -1,0 +1,29 @@
+.post {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+}
+
+.post__image > img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.post__like {
+    display: flex;
+    flex-direction: row;
+}
+
+.post__button {
+    justify-items: center;
+    background: 0;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.post__button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}

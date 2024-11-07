@@ -1,0 +1,44 @@
+.navigation {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__title {
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.nav__menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background: 0;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.nav__button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.nav__button > span {
+    font-size: 16px;
+    font-weight:100;
+    margin-left: 10px;
+}
+
+.nav__about {
+    position: fixed;
+    bottom: 5px;
+}
